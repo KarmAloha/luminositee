@@ -1,1 +1,6 @@
-basic.showString("" + (input.lightLevel()))
+input.onButtonPressed(Button.A, function () {
+    basic.showString("" + (input.lightLevel()))
+})
+basic.forever(function () {
+    led.setBrightness(255)
+})
