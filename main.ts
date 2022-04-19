@@ -1,0 +1,1 @@
+basic.showString("" + (input.lightLevel()))
